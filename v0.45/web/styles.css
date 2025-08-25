@@ -1,0 +1,14 @@
+body { font-family: system-ui, Arial, sans-serif; margin: 0; background:#0f1115; color:#e8e9ed; }
+.app { max-width: 900px; margin: 2rem auto; padding: 1.5rem 2rem; background:#1b1f27; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.4); }
+h1 { margin-top:0; font-size:1.9rem; }
+.controls { display:flex; flex-wrap:wrap; gap:0.75rem; align-items:center; margin-bottom:1rem; }
+button { background:#2563eb; color:#fff; border:none; padding:0.65rem 1.1rem; border-radius:8px; font-size:0.95rem; cursor:pointer; display:inline-flex; gap:0.4rem; align-items:center; font-weight:600; }
+button:disabled { background:#374151; cursor:not-allowed; }
+button:hover:not(:disabled) { background:#1d4ed8; }
+#folderInput { background:#111827; color:#e5e7eb; padding:0.55rem; border:1px solid #374151; border-radius:8px; }
+.output { background:#111827; padding:1rem; border:1px solid #374151; border-radius:8px; max-height:420px; overflow:auto; font-size:12px; line-height:1.4; }
+code { background:#374151; padding:0.15rem 0.4rem; border-radius:4px; }
+::-webkit-scrollbar { width:10px; }
+::-webkit-scrollbar-track { background:#111827; }
+::-webkit-scrollbar-thumb { background:#374151; border-radius:5px; }
+::-webkit-scrollbar-thumb:hover { background:#4b5563; }

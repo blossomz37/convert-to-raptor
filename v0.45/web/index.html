@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Folder to JSON Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Folder to JSON Converter</h1>
+    <p>Select a directory (and its subfiles) to convert into the JSON structure used by the Python script.</p>
+    <div class="controls">
+      <input type="file" id="folderInput" webkitdirectory directory multiple />
+      <button id="convertBtn">Convert</button>
+      <button id="downloadBtn" disabled>Download JSON</button>
+    </div>
+    <pre id="output" class="output"></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
